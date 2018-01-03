@@ -1,61 +1,77 @@
-[{
-    "_id": "5a09d27ca2fb074f7097b063",
-    "name": "John Hancock Term Life",
-    "active": true
-}, {
-    "_id": "5a09d287a2fb074f7097b064",
-    "name": "Mass Mutual Medicare Sup",
-    "active": true
-}, {
-    "_id": "5a0a03a699c6cbcfb48af6ce",
-    "name": "Mutual of Omaha Medicare Plans",
-    "active": true
-}, {
-    "_id": "5a0a03b599c6cbcfb48af6cf",
-    "name": "Humana Medicare Supplement",
-    "active": true
-}, {
-    "_id": "5a0a08f799c6cbcfb48af6d1",
-    "name": "Life Insurance Direct",
-    "active": true
-}, {
-    "_id": "5a0a090b99c6cbcfb48af6d2",
-    "name": "Medicare Supplement",
-    "active": true
-}, {
-    "_id": "5a0a093f99c6cbcfb48af6d3",
-    "name": "Aetna Medicare Advantage",
-    "active": true
-}, {
-    "_id": "5a0b427c99c6cbcfb48af6d4",
-    "name": "Aetna Medicare Plans",
-    "active": true
-}, {
-    "_id": "5a0b42a999c6cbcfb48af6d5",
-    "name": "Online Medicare Plans",
-    "active": true
-}, {
-    "_id": "5a0b675a99c6cbcfb48af6d6",
-    "name": "Life Insurance Direct",
-    "active": true
-}, {
-    "_id": "5a0b724599c6cbcfb48af6d7",
-    "name": "Aetna DRX",
-    "active": true
-}, {
-    "_id": "5a0b72fc99c6cbcfb48af6d8",
-    "name": "American International Group",
-    "active": true
-}, {
-    "_id": "5a0b732899c6cbcfb48af6d9",
-    "name": "Humana Medicare Advantage",
-    "active": true
-}, {
-    "_id": "5a0b754299c6cbcfb48af6da",
-    "name": "Mutual of Omaha Term Life",
-    "active": true
-}, {
-    "_id": "5a0b755299c6cbcfb48af6db",
-    "name": "Mutual of Omaha Whole Life",
-    "active": true
-}]
+[
+    {
+        "_id": "5a09d27ca2fb074f7097b063",
+        "name": "John Hancock Term Life",
+        "active": true
+    },
+    {
+        "_id": "5a09d287a2fb074f7097b064",
+        "name": "Mass Mutual Medicare Sup",
+        "active": true
+    },
+    {
+        "_id": "5a0a03a699c6cbcfb48af6ce",
+        "name": "Mutual of Omaha Medicare Plans",
+        "active": true
+    },
+    {
+        "_id": "5a0a03b599c6cbcfb48af6cf",
+        "name": "Humana Medicare Supplement",
+        "active": true
+    },
+    {
+        "_id": "5a0a08f799c6cbcfb48af6d1",
+        "name": "Life Insurance Direct",
+        "active": true
+    },
+    {
+        "_id": "5a0a090b99c6cbcfb48af6d2",
+        "name": "Medicare Supplement",
+        "active": true
+    },
+    {
+        "_id": "5a0a093f99c6cbcfb48af6d3",
+        "name": "Aetna Medicare Advantage",
+        "active": true
+    },
+    {
+        "_id": "5a0b427c99c6cbcfb48af6d4",
+        "name": "Aetna Medicare Plans",
+        "active": true
+    },
+    {
+        "_id": "5a0b42a999c6cbcfb48af6d5",
+        "name": "Online Medicare Plans",
+        "active": true
+    },
+    {
+        "_id": "5a0b675a99c6cbcfb48af6d6",
+        "name": "Life Insurance Direct",
+        "active": true
+    },
+    {
+        "_id": "5a0b724599c6cbcfb48af6d7",
+        "name": "Aetna DRX",
+        "active": true
+    },
+    {
+        "_id": "5a0b72fc99c6cbcfb48af6d8",
+        "name": "American International Group",
+        "active": true
+    },
+    {
+        "_id": "5a0b732899c6cbcfb48af6d9",
+        "name": "Humana Medicare Advantage",
+        "active": true
+    },
+    {
+        "_id": "5a0b754299c6cbcfb48af6da",
+        "name": "Mutual of Omaha Term Life",
+        "active": true
+    },
+    {
+        "_id": "5a0b755299c6cbcfb48af6db",
+        "name": "Mutual of Omaha Whole Life",
+        "active": true
+    }
+]
