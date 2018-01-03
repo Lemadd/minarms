@@ -3,10 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueMaterial from 'vue-material'
-import 'vue-material/dist/vue-material.min.css'
-import 'vue-material/dist/theme/default.css'
-Vue.use(VueMaterial)
+import Vuetify from 'vuetify'
+Vue.use(Vuetify)
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({

@@ -1,0 +1,48 @@
+<template>
+
+  <div id="app">
+    
+    <md-tabs>
+      <md-tab id="tab-home" md-label="Home" md-icon="home" :to="{ name: 'Home' }"></md-tab>
+      <md-tab id="tab-pages" md-label="About" md-icon="pages" to="/about"></md-tab>
+      <md-tab id="tab-posts" md-icon="assets/logo.png"></md-tab>
+      <md-tab id="tab-favorites" md-label="Favorites" md-icon="favorite"></md-tab>
+    </md-tabs>
+    <md-tabs class="md-primary" md-alignment="centered">
+      <md-tab id="tab-home" md-icon="home"></md-tab>
+      <md-tab id="tab-pages" md-icon="pages"></md-tab>
+      <md-tab id="tab-posts" md-icon="/assets/icon-whatshot.svg"></md-tab>
+      <md-tab id="tab-favorites" md-icon="favorite"></md-tab>
+    </md-tabs>
+    <section class="hero is-large">
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="/">
+                <img src="./assets/logo.png">
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                              <span></span>
+              <span></span>
+              <span></span>
+              </span>
+            </div>
+            <router-link :to="{ name: 'Home' }" class="navbar-item">Home</router-link>
+            <router-link to="/about" class="navbar-item">About</router-link>
+            <router-link to="/coins/ethereum" class="navbar-item">Ethereum</router-link>
+            <router-link to="/coins/bitcoin" class="navbar-item">Bitcoin</router-link>
+          </div>
+        </header>
+      </div>
+      <router-view>
+      </router-view>
+    </section>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: 'app'
+  }
+</script>
