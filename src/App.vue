@@ -71,7 +71,7 @@
     >
       <v-toolbar-title :style="$vuetify.breakpoint.smAndUp ? 'width: 300px; min-width: 250px' : 'min-width: 72px'" class="ml-0 pl-3">
         <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-        <span class="hidden-xs-only"> Test App</span>
+        <span class="hidden-xs-only"><router-link :to="{ name: 'Home' }" style="color: white;text-decoration: none;">Home</router-link></span>
       </v-toolbar-title>
 
       <div class="d-flex align-center" style="margin-left: auto">
@@ -92,7 +92,7 @@
       </div>
     </v-toolbar>
     <v-content>
-      <v-container fluid fill-height>
+      <v-container fluid>
       <router-view>
       </router-view>
       </v-container>
